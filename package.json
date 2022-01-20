@@ -1,0 +1,17 @@
+{
+  "name": "bootcampMiduNode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": " test 'Error: no test especified' && exit 1 "
+  },
+  "devDependencies": {
+    "nodemon": "2.0.15"
+  },
+  "dependencies": {
+    "express": "4.17.2"
+  }
+}
